@@ -10,6 +10,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <script>
+      let vh = window.innerHeight * 0.01;
+      document.documentElement.style.setProperty('--vh', `${vh}px`);
+
+      window.addEventListener('resize', () => {
+        let vh = window.innerHeight * 0.01;
+        document.documentElement.style.setProperty('--vh', `${vh}px`);
+      });
+    </script>
   </head>
     <body>
       <div class="landing">
@@ -32,7 +42,7 @@
         </div>
         <div class="info-right">
           <i class="fa fa-plane" aria-hidden="true"></i>
-          <h1>Fast & Easy process.</h1>
+          <h1>Fast & Easy process, always.</h1>
           <p data-aos-delay="250" data-aos-duration="1500" data-aos="fade-left">Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum eu pretium enim. Aliquam ut lectus ultrices, euismod massa vitae, vehicula diam. Nam viverra ipsum ut imperdiet aliquam. Vivamus sit amet varius diam, at pellentesque felis. Nullam commodo, lacus ut viverra viverra, felis lectus ultricies lectus, non lobortis diam tortor sit amet enim. Sed eget blandit massa, vel cursus lectus.</p>
           <a href="https://www.ebay.com/str/investorcollectibles" target="_blank">OUR GALLERY</a>
         </div>
